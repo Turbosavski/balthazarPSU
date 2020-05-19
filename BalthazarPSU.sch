@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L BalthazarPSU-rescue:INDUCTOR_SMALL L1
+L BalthazarPSU-rescue:INDUCTOR_SMALL-BalthazarPSU-rescue L1
 U 1 1 5E346E06
 P 5150 3300
 F 0 "L1" H 5150 3400 50  0000 C CNN
@@ -91,7 +91,7 @@ F 3 "" H 3800 4000 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L BalthazarPSU-rescue:Led_Small D1
+L BalthazarPSU-rescue:Led_Small-BalthazarPSU-rescue D1
 U 1 1 5E347A22
 P 3550 3900
 F 0 "D1" H 3500 4000 50  0000 L CNN
@@ -102,7 +102,7 @@ F 3 "" V 3550 3900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BalthazarPSU-rescue:Led_Small D2
+L BalthazarPSU-rescue:Led_Small-BalthazarPSU-rescue D2
 U 1 1 5E347A6B
 P 3550 4000
 F 0 "D2" H 3500 4100 50  0000 L CNN
@@ -2147,7 +2147,7 @@ Wire Wire Line
 Connection ~ 5850 4400
 Connection ~ 4900 4900
 $Comp
-L BalthazarPSU-rescue:THERMISTOR THERMISTOR(103-AT)1
+L BalthazarPSU-rescue:THERMISTOR-BalthazarPSU-rescue THERMISTOR(103-AT)1
 U 1 1 5E351885
 P 5550 4500
 F 0 "THERMISTOR(103-AT)1" V 5650 4500 50  0000 C CNN
@@ -2438,7 +2438,7 @@ Connection ~ 5250 4100
 Wire Wire Line
 	5250 4100 5500 4100
 $Comp
-L BalthazarPSU-rescue:INDUCTOR_SMALL FBEAD3
+L BalthazarPSU-rescue:INDUCTOR_SMALL-BalthazarPSU-rescue FBEAD3
 U 1 1 5EF3D9A1
 P 5950 4100
 F 0 "FBEAD3" H 5950 4200 50  0000 C CNN
@@ -2523,7 +2523,7 @@ Wire Wire Line
 Wire Wire Line
 	7450 3650 7500 3650
 $Comp
-L BalthazarPSU-rescue:INDUCTOR_SMALL L2
+L BalthazarPSU-rescue:INDUCTOR_SMALL-BalthazarPSU-rescue L2
 U 1 1 5EFF8ED2
 P 7900 1950
 F 0 "L2" H 7900 2050 50  0000 C CNN
@@ -2534,7 +2534,7 @@ F 3 "" H 7900 1950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BalthazarPSU-rescue:INDUCTOR_SMALL L3
+L BalthazarPSU-rescue:INDUCTOR_SMALL-BalthazarPSU-rescue L3
 U 1 1 5EFF9E33
 P 7900 3200
 F 0 "L3" H 7900 3300 50  0000 C CNN
@@ -3271,7 +3271,7 @@ Connection ~ 7200 2950
 Wire Wire Line
 	7200 2950 7300 2950
 $Comp
-L BalthazarPSU-rescue:INDUCTOR_SMALL FBEAD2
+L BalthazarPSU-rescue:INDUCTOR_SMALL-BalthazarPSU-rescue FBEAD2
 U 1 1 5EE8BD2A
 P 2050 3250
 F 0 "FBEAD2" H 2050 3350 50  0000 C CNN
@@ -3293,7 +3293,7 @@ F 3 "~" H 1550 3310 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BalthazarPSU-rescue:BQ24193 IC1
+L BalthazarPSU-rescue:BQ24193-BalthazarPSU-rescue IC1
 U 1 1 5EC6F97C
 P 4650 3950
 F 0 "IC1" H 5294 3988 40  0000 L CNN
@@ -3446,10 +3446,10 @@ Wire Wire Line
 	3050 4550 2800 4550
 Connection ~ 3050 4550
 $Comp
-L Connector:Conn_01x02_Female THERM
+L Connector:Conn_01x02_Female THERM1
 U 1 1 5E94198E
 P 6450 4550
-F 0 "THERM" H 6478 4526 50  0000 L CNN
+F 0 "THERM1" H 6478 4526 50  0000 L CNN
 F 1 "thermistor" H 6478 4435 50  0000 L CNN
 F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 6450 4550 50  0001 C CNN
 F 3 "~" H 6450 4550 50  0001 C CNN
@@ -3568,7 +3568,7 @@ F 3 "" H 7350 3950 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L BalthazarPSU-rescue:Led_Small D5
+L BalthazarPSU-rescue:Led_Small-BalthazarPSU-rescue D5
 U 1 1 5E93AE8A
 P 7050 3950
 F 0 "D5" H 7000 4050 50  0000 L CNN
@@ -3595,7 +3595,7 @@ F 3 "" H 7350 2700 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L BalthazarPSU-rescue:Led_Small D4
+L BalthazarPSU-rescue:Led_Small-BalthazarPSU-rescue D4
 U 1 1 5E9E9310
 P 7050 2700
 F 0 "D4" H 7000 2800 50  0000 L CNN
@@ -3781,10 +3781,10 @@ Wire Wire Line
 Wire Wire Line
 	6200 4100 6250 4100
 $Comp
-L Connector:Conn_01x02_Female BATT
+L Connector:Conn_01x02_Female BATT1
 U 1 1 5E8DE18A
 P 6450 4100
-F 0 "BATT" H 6478 4076 50  0000 L CNN
+F 0 "BATT1" H 6478 4076 50  0000 L CNN
 F 1 "1s LiPo" H 6478 3985 50  0000 L CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 6450 4100 50  0001 C CNN
 F 3 "~" H 6450 4100 50  0001 C CNN

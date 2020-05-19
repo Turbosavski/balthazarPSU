@@ -1,33 +1,89 @@
-"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
-1;"PSU1";"TerminalBlock_simple-2_P5.08mm";1;"3.9 - 17V adapter 3-5A";;;
-2;"J2";"TerminalBlock_simple-2_P5.08mm";1;"1s LiPo";;;
-3;"J9,J8";"TerminalBlock_simple-2_P5.08mm";2;"3.3V 4A";;;
-4;"U3,U2";"WSON-14-1EP_4.0x4.0mm_P0.5mm_EP2.6x2.6mmThermalPads";2;"TPS63020";;;
-5;"CPSU2,CPSU1,CBTST1,CBUS1,CBUS2,CBUS3,CBUS4,CBUS5,CBUS8,CREGN1";"C_1206_3216Metric";10;"1uF";;;
-6;"CSYS3,CSYS4,CBAT1,CPMID1,CSYS1,CSYS2";"C_1206_3216Metric";6;"10uF";;;
-7;"FBEAD2,FBEAD3";"L_Neosid_MicroCoil_Ms36-L";2;"10E";;;
-8;"L2,L3";"L_Coilcraft_XxL4020";2;"1.5uH 4A";;;
-9;"R12,R14,R23,R24";"R_1206_3216Metric";4;"1M";;;
-10;"R13,R15";"R_1206_3216Metric";2;"180K";;;
-11;"R16,R17,R1,R2,R3,R6,THERMISTOR(103-AT)1,R18";"R_1206_3216Metric";8;"10K";;;
-12;"RBTST1";"R_1206_3216Metric";1;"R";;;
-13;"C8,C9,C3,C4,C10,C5,C7,C6";"C_1206_3216Metric";8;"22uF";;;
-14;"C1,C2,CBUS7";"C_1206_3216Metric";3;"0.1uF";;;
-15;"D1,D2,D4,D5";"LED_1206_3216Metric";4;"Led";;;
-16;"R4,R5,R8,R9,R11,R21,R22";"R_1206_3216Metric";7;"2K2";;;
-17;"R7";"R_1206_3216Metric";1;"265";;;
-18;"R10";"R_1206_3216Metric";1;"6K8";;;
-19;"L1";"L_Coilcraft_XxL4020";1;"2.2uH 4A";;;
-20;"IC1";"QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias";1;"BQ24193";;;
-21;"D3,D6";"D_SOD-128";2;"RBR5LAM40A";;;
-22;"J6";"USB_Micro-B_Molex-105133-0031";1;"USB_OTG_female";;;
-23;"U1";"SOP-16_4.4x10.4mm_P1.27mm";1;"PAM8403-SOP16";;;
-24;"J1";"PinSocket_1x03_P2.54mm_Horizontal";1;"AudioIN";;;
-25;"J4";"PinSocket_1x04_P2.54mm_Horizontal";1;"AudioOUT";;;
-26;"J7";"PinHeader_1x06_P2.54mm_Horizontal";1;"host (promicro)";;;
-27;"R19,R20";"R_1206_3216Metric";2;"0";;;
-28;"J3";"TestPoint_2Pads_Pitch2.54mm_Drill0.8mm";1;"thermistor";;;
-29;"J10,J11";"TestPoint_2Pads_Pitch2.54mm_Drill0.8mm";2;"3.3V/5V";;;
-30;"R25,R26";"R_1206_3216Metric";2;"270K";;;
-31;"SW2,SW3";"SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile";2;"SW_SPST";;;
-32;"J5";"USB_A_CNCTech_1001-011-01101_Horizontal-Female";1;"USB_A_female";;;
+Reference, Value, Footprint, Datasheet
+"L1","2.2uH 4A","Inductor_SMD:L_Coilcraft_XxL4020",""
+"R7","265","Resistor_SMD:R_1206_3216Metric",""
+"R4","2K2","Resistor_SMD:R_1206_3216Metric",""
+"R5","2K2","Resistor_SMD:R_1206_3216Metric",""
+"D1","Led","LED_SMD:LED_1206_3216Metric",""
+"D2","Led","LED_SMD:LED_1206_3216Metric",""
+"R3","10K","Resistor_SMD:R_1206_3216Metric",""
+"R2","10K","Resistor_SMD:R_1206_3216Metric",""
+"R1","10K","Resistor_SMD:R_1206_3216Metric",""
+"CPMID1","10uF","Capacitor_SMD:C_1206_3216Metric",""
+"CBUS3","1uF","Capacitor_SMD:C_1206_3216Metric",""
+"CSYS1","10uF","Capacitor_SMD:C_1206_3216Metric",""
+"CSYS2","10uF","Capacitor_SMD:C_1206_3216Metric",""
+"CREGN1","1uF","Capacitor_SMD:C_1206_3216Metric",""
+"RBTST1","R","Resistor_SMD:R_1206_3216Metric",""
+"CBTST1","1uF","Capacitor_SMD:C_1206_3216Metric",""
+"R8","2K2","Resistor_SMD:R_1206_3216Metric",""
+"R10","6K8","Resistor_SMD:R_1206_3216Metric",""
+"THERMISTOR(103-AT)1","10K","Resistor_SMD:R_1206_3216Metric",""
+"R6","10K","Resistor_SMD:R_1206_3216Metric",""
+"U1","PAM8403-SOP16","Package_SO:SOP-16_4.4x10.4mm_P1.27mm","https://www.diodes.com/assets/Datasheets/PAM8403.pdf"
+"CBUS5","1uF","Capacitor_SMD:C_1206_3216Metric",""
+"CBUS8","1uF","Capacitor_SMD:C_1206_3216Metric",""
+"R11","2K2","Resistor_SMD:R_1206_3216Metric",""
+"R9","2K2","Resistor_SMD:R_1206_3216Metric",""
+"CBUS7","0.1uF","Capacitor_SMD:C_1206_3216Metric",""
+"CBUS1","1uF","Capacitor_SMD:C_1206_3216Metric",""
+"CBUS2","1uF","Capacitor_SMD:C_1206_3216Metric",""
+"CBUS4","1uF","Capacitor_SMD:C_1206_3216Metric",""
+"D3","RBR5LAM40A","Diode_SMD:D_SOD-128","~"
+"CBAT1","10uF","Capacitor_SMD:C_1206_3216Metric",""
+"FBEAD3","10E","Inductor_SMD:L_Neosid_MicroCoil_Ms36-L",""
+"U2","TPS63020","Package_SON:WSON-14-1EP_4.0x4.0mm_P0.5mm_EP2.6x2.6mmThermalPads","http://www.ti.com/lit/ds/symlink/tps63060.pdf"
+"U3","TPS63020","Package_SON:WSON-14-1EP_4.0x4.0mm_P0.5mm_EP2.6x2.6mmThermalPads","http://www.ti.com/lit/ds/symlink/tps63060.pdf"
+"L2","1.5uH 4A","Inductor_SMD:L_Coilcraft_XxL4020",""
+"L3","1.5uH 4A","Inductor_SMD:L_Coilcraft_XxL4020",""
+"C1","0.1uF","Capacitor_SMD:C_1206_3216Metric",""
+"C2","0.1uF","Capacitor_SMD:C_1206_3216Metric",""
+"R12","1M","Resistor_SMD:R_1206_3216Metric",""
+"R14","1M","Resistor_SMD:R_1206_3216Metric",""
+"R13","180K","Resistor_SMD:R_1206_3216Metric",""
+"R15","180K","Resistor_SMD:R_1206_3216Metric",""
+"C3","22uF","Capacitor_SMD:C_1206_3216Metric",""
+"C5","22uF","Capacitor_SMD:C_1206_3216Metric",""
+"C7","22uF","Capacitor_SMD:C_1206_3216Metric",""
+"C9","22uF","Capacitor_SMD:C_1206_3216Metric",""
+"C4","22uF","Capacitor_SMD:C_1206_3216Metric",""
+"C6","22uF","Capacitor_SMD:C_1206_3216Metric",""
+"C8","22uF","Capacitor_SMD:C_1206_3216Metric",""
+"C10","22uF","Capacitor_SMD:C_1206_3216Metric",""
+"CSYS4","10uF","Capacitor_SMD:C_1206_3216Metric",""
+"SW2","SW_SPST","Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile","~"
+"R16","10K","Resistor_SMD:R_1206_3216Metric",""
+"J5","USB_A_female","Connector_USB:USB_A_CNCTech_1001-011-01101_Horizontal-Female"," ~"
+"J6","USB_OTG_female","Connector_USB:USB_Micro-B_Molex-105133-0031"," ~"
+"D6","RBR5LAM40A","Diode_SMD:D_SOD-128","~"
+"CPSU2","1uF","Capacitor_SMD:C_1206_3216Metric",""
+"R17","10K","Resistor_SMD:R_1206_3216Metric",""
+"SW3","SW_SPST","Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile","~"
+"R18","10K","Resistor_SMD:R_1206_3216Metric",""
+"FBEAD2","10E","Inductor_SMD:L_Neosid_MicroCoil_Ms36-L",""
+"PSU1","3.9 - 17V adapter 3-5A","TerminalBlock:TerminalBlock_bornier-2_P5.08mm","~"
+"IC1","BQ24193","Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias",""
+"J8","3.3V 4A","TerminalBlock:TerminalBlock_bornier-2_P5.08mm","~"
+"J4","AudioOUT","Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Horizontal","~"
+"J1","AudioIN","Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal","~"
+"R19","0","Resistor_SMD:R_1206_3216Metric",""
+"R20","0","Resistor_SMD:R_1206_3216Metric",""
+"J7","host (promicro)","Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal","~"
+"THERM1","thermistor","TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm","~"
+"R23","1M","Resistor_SMD:R_1206_3216Metric",""
+"R24","1M","Resistor_SMD:R_1206_3216Metric",""
+"R22","2K2","Resistor_SMD:R_1206_3216Metric",""
+"D5","Led","LED_SMD:LED_1206_3216Metric",""
+"R21","2K2","Resistor_SMD:R_1206_3216Metric",""
+"D4","Led","LED_SMD:LED_1206_3216Metric",""
+"CSYS3","10uF","Capacitor_SMD:C_1206_3216Metric",""
+"R26","270K","Resistor_SMD:R_1206_3216Metric",""
+"J11","3.3V/5V","TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm","~"
+"J10","3.3V/5V","TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm","~"
+"R25","270K","Resistor_SMD:R_1206_3216Metric",""
+"CPSU1","1uF","Capacitor_SMD:C_1206_3216Metric",""
+"BATT1","1s LiPo","TerminalBlock:TerminalBlock_bornier-2_P5.08mm","~"
+"CBUS3a1","0.1uF","Capacitor_SMD:C_0805_2012Metric",""
+"CPMID1a1","0.1uF","Capacitor_SMD:C_0805_2012Metric",""
+"CBUS3a3","0.1uF","Capacitor_SMD:C_0805_2012Metric",""
+"CBUS3a2","0.1uF","Capacitor_SMD:C_0805_2012Metric",""
+"J9","3.3V 4A","TerminalBlock:TerminalBlock_bornier-2_P5.08mm","~"

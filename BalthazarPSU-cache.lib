@@ -33,11 +33,11 @@ X NC 9 550 -150 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# BalthazarPSU-rescue_BQ24193
+# BalthazarPSU-rescue_BQ24193-BalthazarPSU-rescue
 #
-DEF BalthazarPSU-rescue_BQ24193 IC 0 40 Y Y 1 F N
+DEF BalthazarPSU-rescue_BQ24193-BalthazarPSU-rescue IC 0 40 Y Y 1 F N
 F0 "IC" -400 450 40 H V C CNN
-F1 "BalthazarPSU-rescue_BQ24193" -50 -50 40 H V C CNN
+F1 "BalthazarPSU-rescue_BQ24193-BalthazarPSU-rescue" -50 -50 40 H V C CNN
 F2 "" 0 -350 60 H V C CNN
 F3 "" 0 -350 60 H V C CNN
 $FPLIST
@@ -73,11 +73,11 @@ X /CE 9 -50 -550 150 U 40 40 1 1 I
 ENDDRAW
 ENDDEF
 #
-# BalthazarPSU-rescue_INDUCTOR_SMALL
+# BalthazarPSU-rescue_INDUCTOR_SMALL-BalthazarPSU-rescue
 #
-DEF BalthazarPSU-rescue_INDUCTOR_SMALL L 0 0 N N 1 F N
+DEF BalthazarPSU-rescue_INDUCTOR_SMALL-BalthazarPSU-rescue L 0 0 N N 1 F N
 F0 "L" 0 100 50 H V C CNN
-F1 "BalthazarPSU-rescue_INDUCTOR_SMALL" 0 -50 50 H V C CNN
+F1 "BalthazarPSU-rescue_INDUCTOR_SMALL-BalthazarPSU-rescue" 0 -50 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -90,11 +90,11 @@ X 2 2 250 0 50 L 30 30 1 1 I
 ENDDRAW
 ENDDEF
 #
-# BalthazarPSU-rescue_Led_Small
+# BalthazarPSU-rescue_Led_Small-BalthazarPSU-rescue
 #
-DEF BalthazarPSU-rescue_Led_Small D 0 10 N N 1 F N
+DEF BalthazarPSU-rescue_Led_Small-BalthazarPSU-rescue D 0 10 N N 1 F N
 F0 "D" -50 100 50 H V L CNN
-F1 "BalthazarPSU-rescue_Led_Small" -150 -80 50 H V L CNN
+F1 "BalthazarPSU-rescue_Led_Small-BalthazarPSU-rescue" -150 -80 50 H V L CNN
 F2 "" 0 0 60 V V C CNN
 F3 "" 0 0 60 V V C CNN
 $FPLIST
@@ -111,11 +111,11 @@ X C 2 100 0 70 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BalthazarPSU-rescue_THERMISTOR
+# BalthazarPSU-rescue_THERMISTOR-BalthazarPSU-rescue
 #
-DEF BalthazarPSU-rescue_THERMISTOR TH 0 0 N Y 1 F N
+DEF BalthazarPSU-rescue_THERMISTOR-BalthazarPSU-rescue TH 0 0 N Y 1 F N
 F0 "TH" 100 50 50 V V C CNN
-F1 "BalthazarPSU-rescue_THERMISTOR" -100 0 50 V V C BNN
+F1 "BalthazarPSU-rescue_THERMISTOR-BalthazarPSU-rescue" -100 0 50 V V C BNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
