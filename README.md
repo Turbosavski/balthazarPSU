@@ -8,4 +8,4 @@ KiCad 5.1.5 files
 
 # BalthazarPSU 
 
-module BalthazarPSU is a combined battery charger, buck-boost converter, stereo power amplifier and usb2.0 hub. 
+module BalthazarPSU is a combined 1S battery charger, double buck-boost converter, stereo power amplifier and usb2.0 hub. 
